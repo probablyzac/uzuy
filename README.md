@@ -1,0 +1,2 @@
+# uzuy
+Nintendo Switch emulator
