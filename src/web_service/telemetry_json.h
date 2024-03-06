@@ -1,6 +1,3 @@
-// SPDX-FileCopyrightText: 2017 Citra Emulator Project
-// SPDX-License-Identifier: GPL-2.0-or-later
-
 #pragma once
 
 #include <chrono>
@@ -15,26 +12,26 @@ namespace WebService {
  */
 class TelemetryJson : public Common::Telemetry::VisitorInterface {
 public:
-    TelemetryJson(std::string host, std::string username, std::string token);
-    ~TelemetryJson() override;
+    TelemetryJson();
+    ~TelemetryJson() override = default;
 
-    void Visit(const Common::Telemetry::Field<bool>& field) override;
-    void Visit(const Common::Telemetry::Field<double>& field) override;
-    void Visit(const Common::Telemetry::Field<float>& field) override;
-    void Visit(const Common::Telemetry::Field<u8>& field) override;
-    void Visit(const Common::Telemetry::Field<u16>& field) override;
-    void Visit(const Common::Telemetry::Field<u32>& field) override;
-    void Visit(const Common::Telemetry::Field<u64>& field) override;
-    void Visit(const Common::Telemetry::Field<s8>& field) override;
-    void Visit(const Common::Telemetry::Field<s16>& field) override;
-    void Visit(const Common::Telemetry::Field<s32>& field) override;
-    void Visit(const Common::Telemetry::Field<s64>& field) override;
-    void Visit(const Common::Telemetry::Field<std::string>& field) override;
-    void Visit(const Common::Telemetry::Field<const char*>& field) override;
-    void Visit(const Common::Telemetry::Field<std::chrono::microseconds>& field) override;
+    void Visit(const Common::Telemetry::Field<bool>&) override {}
+    void Visit(const Common::Telemetry::Field<double>&) override {}
+    void Visit(const Common::Telemetry::Field<float>&) override {}
+    void Visit(const Common::Telemetry::Field<u8>&) override {}
+    void Visit(const Common::Telemetry::Field<u16>&) override {}
+    void Visit(const Common::Telemetry::Field<u32>&) override {}
+    void Visit(const Common::Telemetry::Field<u64>&) override {}
+    void Visit(const Common::Telemetry::Field<s8>&) override {}
+    void Visit(const Common::Telemetry::Field<s16>&) override {}
+    void Visit(const Common::Telemetry::Field<s32>&) override {}
+    void Visit(const Common::Telemetry::Field<s64>&) override {}
+    void Visit(const Common::Telemetry::Field<std::string>&) override {}
+    void Visit(const Common::Telemetry::Field<const char*>&) override {}
+    void Visit(const Common::Telemetry::Field<std::chrono::microseconds>&) override {}
 
-    void Complete() override;
-    bool SubmitTestcase() override;
+    void Complete() override {}
+    bool SubmitTestcase() override { return false; }
 
 private:
     struct Impl;
