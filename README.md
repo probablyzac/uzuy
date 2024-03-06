@@ -32,7 +32,7 @@ Check out our [website](https://uzuy-emu.org/) for the latest news on exciting f
 
 ## Development
 
-Most of the development happens on GitHub. It's also where our central repository is hosted. For development discussion, please join us on [Discord](https://discord.gg/QVVJRv9rKH).
+Most of the development happens on GitHub. It's also where our central repository is hosted. For development discussion, please join us on [Discord](https://discord.gg/CvxfQsRsTf).
 
 If you want to contribute, please take a look at the [Contributor's Guide](https://github.com/AURA-69/uzuy/wiki/Contributor's-Guide) and [Developer Information](https://github.com/AURA-69/uzuy/wiki/Developer-Information). You can also contact any of the developers on Discord in order to know about the current state of the emulator.
 
