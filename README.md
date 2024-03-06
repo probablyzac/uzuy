@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <a href="https://uzuy-emu.org/"><img src="https://i.imgur.com/d0lrIfV.png" alt="Uzuy" width="200"></a>
+  <a href="https://uzuy-emu.org/"><img src="https://i.imgur.com/d0lrIfV.png" alt="uzuy" width="200"></a>
   <br>
   <b>Uzuy</b>
   <br>
 </h1>
 
-<h4 align="center"><b>Uzuy</b> is the world's most popular, open-source, Nintendo Switch emulator — started by the creators of Artic.
+<h4 align="center"><b>uzuy</b> is the world's most popular, open-source, Nintendo Switch emulator — started by the creators of Artic.
 <br>
 It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux and Android.
 </h4>
@@ -50,4 +50,4 @@ You can download the latest releases automatically via the installer on our [dow
 
 ## License
 
-Uzuy is licensed under the GPLv3 (or any later version). Refer to the [LICENSE.txt](https://github.com/AURA-69/uzuy/blob/main/LICENSE.txt) file.
+uzuy is licensed under the GPLv3 (or any later version). Refer to the [LICENSE.txt](https://github.com/AURA-69/uzuy/blob/main/LICENSE.txt) file.
