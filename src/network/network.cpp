@@ -8,10 +8,7 @@
 
 namespace Network {
 
-RoomNetwork::RoomNetwork() {
-    m_room = std::make_shared<Room>();
-    m_room_member = std::make_shared<RoomMember>();
-}
+RoomNetwork::RoomNetwork() : m_room(std::make_shared<Room>()), m_room_member(std::make_shared<RoomMember>()) {}
 
 bool RoomNetwork::Init() {
     if (enet_initialize() != 0) {
