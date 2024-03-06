@@ -2,7 +2,7 @@
   <br>
   <a href="https://uzuy-emu.org/"><img src="https://i.imgur.com/d0lrIfV.png" alt="uzuy" width="200"></a>
   <br>
-  <b>Uzuy</b>
+  <b>uzuy</b>
   <br>
 </h1>
 
