@@ -20,7 +20,7 @@ END
 fi
 
 # Check for tabs, since tab-in-indent catches only those at the beginning of a line
-if git diff --cached -- $paths_to_check | egrep '^\+.*	'; then
+if git diff --cached -- $paths_to_check | grep -q $'\t'; then
     cat<<END
 Error: This commit would contain a tab, which is against this repo's policy.
 If you know what you are doing, you can try 'git commit --no-verify' to bypass the check.
